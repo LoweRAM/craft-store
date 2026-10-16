@@ -20,6 +20,7 @@ Setup
 
 Create a clean virtual environment::
 
+  :vale-ignore:
   $ pip3 -m venv ~/craft-store-upload
   $ . ~/craft-store-upload/bin/activate
 
@@ -31,6 +32,7 @@ Obtain a snap to upload by downloading one from the Snap Store and give it a
 predictable name::
 
   $ snap download hello
+  :vale-ignore:
   $ mv hello_*.snap /tmp/hello.snap
 
 
